@@ -1,5 +1,2 @@
-<?php require_once 'header.php'; ?>
+<?php
 
-<h1>Olá, Tema</h1>
-
-<?php require_once 'footer.php' ?>
