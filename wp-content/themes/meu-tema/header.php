@@ -20,16 +20,16 @@
         <?php
         the_custom_logo();
         ?>
-    <nav>
-        <?php
-        wp_nav_menu(
-            array(
-                'menu' => 'menu-navegacao',
-                'menu_id' => 'menu-principal'
-            )
-        );
-        ?>
-    </nav>
+        <nav>
+            <?php
+            wp_nav_menu(
+                array(
+                    'menu' => 'menu-navegacao',
+                    'menu_id' => 'menu-principal'
+                )
+            );
+            ?>
+        </nav>
     </div>
 </header>
 

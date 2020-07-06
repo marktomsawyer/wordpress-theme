@@ -1,5 +1,6 @@
 <?php
 
+$estiloPagina = 'home.css';
 require_once 'header.php';
 
 $args = array(
@@ -15,6 +16,9 @@ if ($query->have_posts()):
         <main>
             <div class="imagem-banner">
                 <?php the_post_thumbnail(); ?>
+            </div>
+            <div class="texto-banner-dinamico">
+                <span id="texto-banner"></span>
             </div>
         </main>
 
